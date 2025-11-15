@@ -1,0 +1,12 @@
+,OS: Windows 10 | Browser: Chrome 142 | Resolution: 1366x728 | Time: 15 Nov 2025 / 10:35:34  GMT+5:30
+
+"#","Step","Data","Exp Result","XPath","cssSelector"
+"1","Open website","https://careercenter.tops-int.com/","","",""
+"2","Scroll down","","","",""
+"3","Enter ""9313970735"" into ""Mobile Number""","9313970735","","//form[@id='loginForm']//input[@id='mobile']","body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(3) > div:nth-child(2) > input:nth-child(2)"
+"4","Enter ""******"" into ""Password""","******","","//input[@id='password']","#password"
+"5","Click on ""Login""","","","//input[@value='Login']","input[value='Login']"
+"6","Scroll down","","","",""
+"7","Scroll up","","","",""
+"8","Click on ""Krish Jogani""","","","//span[@class='d-none d-md-inline']",".d-none.d-md-inline"
+"9","Click on ""Logout""","","","//a[@class='dropdown-item text-danger']",".dropdown-item.text-danger"
