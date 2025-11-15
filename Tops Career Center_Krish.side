@@ -1,0 +1,130 @@
+{
+  "id": "8969c69d-6d87-459b-907e-93f9ac0d06c7",
+  "version": "2.0",
+  "name": "Tops Career Center",
+  "url": "https://careercenter.tops-int.com",
+  "tests": [{
+    "id": "b35cef09-3861-41a5-b774-6137c30e27ad",
+    "name": "Tops Career Center_Krish",
+    "commands": [{
+      "id": "c30fbeb5-caf3-48ad-b51c-3747b1b91acc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e19463dd-2660-425a-9b5f-231ab5590103",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d224078d-8200-4b8c-b524-be02f21b5b98",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=user_name", "name"],
+        ["css=.my-3:nth-child(2) > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53d465c7-2faa-41fd-87b7-75768c8c3827",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=user_name", "name"],
+        ["css=.my-3:nth-child(2) > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "9313970735"
+    }, {
+      "id": "373169ef-11c8-4094-9932-5c0cb71a9bb8",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06f4197a-9f41-491d-b7a8-330ea7adabab",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "190747"
+    }, {
+      "id": "07549f38-bee2-4b7a-a62a-a2c6a93bc70f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-3 > .btn",
+      "targets": [
+        ["css=.mt-3 > .btn", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f8237ca-df9a-460e-8f08-8cd1ba754152",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-md-inline",
+      "targets": [
+        ["css=.d-md-inline", "css:finder"],
+        ["xpath=//a[@id='profileDropdown']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Krish Jogani')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cbc1c3f-854e-41e2-8d19-a869cd15e58e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=li:nth-child(4) > .text-danger", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='main-header']/div/div/div[2]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://careercenter.tops-int.com/logout')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "68f4cba3-283e-4d33-b8e2-66a6bdb8ddf4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b35cef09-3861-41a5-b774-6137c30e27ad"]
+  }],
+  "urls": ["https://careercenter.tops-int.com/"],
+  "plugins": []
+}
